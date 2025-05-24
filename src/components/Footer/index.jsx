@@ -11,11 +11,11 @@ const Footer = () => {
     return (
         <>
             <div className={styles.footer}>
-                <Link to="/main" className={styles.button_home}>
+                <Link to="/main" className={`${styles.button_footer} ${isMainPage ? styles.button_footer_main : ''}`}>
                     <HomeIcon style={{ width: '50px', height: '50px' }} />
                 </Link>
                 {!isMainPage && (
-                    <Link to="/main" className={styles.button_back}>
+                    <Link to="/main" className={`${styles.button_footer} ${isMainPage ? styles.button_footer_main : ''}`}>
                         <ArrowBackIcon style={{ width: '50px', height: '50px' }} />
                     </Link>
                 )}
