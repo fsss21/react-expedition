@@ -444,7 +444,6 @@ export const papanin = {
         { text: 'Текстовое описание8', src: '/audios/preview.mp3', title: 'название аудио' },
     ],
 };
-
 export const library = {
     films: [
         {
@@ -488,6 +487,94 @@ export const library = {
         {
             title: 'Название книги',
             src: '',
+        },
+    ],
+};
+export const crosswordData = {
+    size: 23,
+    words: [
+        // Горизонтальные слова
+        {
+            id: 'h1',
+            word: '1234567891',
+            clue: 'десять',
+            direction: 'horizontal',
+            start: { row: 7, col: 13 },
+            solved: false,
+        },
+        {
+            id: 'h2',
+            word: '12345678',
+            clue: 'восемь',
+            direction: 'horizontal',
+            start: { row: 9, col: 9 },
+            solved: false,
+        },
+        {
+            id: 'h3',
+            word: '12345',
+            clue: 'пять',
+            direction: 'horizontal',
+            start: { row: 5, col: 8 },
+            solved: false,
+        },
+        {
+            id: 'h4',
+            word: '123456789',
+            clue: 'девять',
+            direction: 'horizontal',
+            start: { row: 14, col: 8 },
+            solved: false,
+        },
+        {
+            id: 'h5',
+            word: '123456789',
+            clue: 'девять',
+            direction: 'horizontal',
+            start: { row: 12, col: 2 },
+            solved: false,
+        },
+
+        // Вертикальные слова
+        {
+            id: 'v1',
+            word: '1234567891',
+            clue: 'десять',
+            direction: 'vertical',
+            start: { row: 3, col: 16 },
+            solved: false,
+        },
+        {
+            id: 'v2',
+            word: '1234567',
+            clue: 'семь',
+            direction: 'vertical',
+            start: { row: 3, col: 11 },
+            solved: false,
+        },
+        {
+            id: 'v3',
+            word: '1234567',
+            clue: 'семь',
+            direction: 'vertical',
+            start: { row: 9, col: 9 },
+            solved: false,
+        },
+        {
+            id: 'v4',
+            word: '12345678',
+            clue: 'восемь',
+            direction: 'vertical',
+            start: { row: 6, col: 5 },
+            solved: false,
+        },
+        {
+            id: 'v4',
+            word: '123456',
+            clue: 'шесть',
+            direction: 'vertical',
+            start: { row: 10, col: 2 },
+            solved: false,
         },
     ],
 };

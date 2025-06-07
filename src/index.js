@@ -8,6 +8,10 @@ import Preview from './Pages/Preview/Preview.jsx';
 import GamesPage from './Pages/GamesPage/index.jsx';
 import FilmsPage from './Pages/FilmsPage/index.jsx';
 import HistoricalPage from './Pages/HistoricalPage/index.jsx';
+import CrosswordPage from './Pages/GamesPage/CrosswordPage/index.jsx';
+import CongratsPage from './Pages/GamesPage/CongratsPage/index.jsx';
+import CertificateFormPage from './Pages/GamesPage/CertificateFormPage/index.jsx';
+import ThanksPage from './Pages/GamesPage/ThanksPage/index.jsx';
 
 import NovosibirskPage from './Pages/HistoricalPage/NovosibirskPage/index.jsx';
 import KrasinPage from './Pages/HistoricalPage/KrasinPage/index.jsx';
@@ -83,6 +87,22 @@ const router = createBrowserRouter([
     {
         path: 'games',
         element: <GamesPage />,
+    },
+    {
+        path: 'crossword',
+        element: <CrosswordPage />,
+    },
+    {
+        path: 'congrats',
+        element: <CongratsPage />,
+    },
+    {
+        path: 'certificate-form',
+        element: <CertificateFormPage />,
+    },
+    {
+        path: 'thanks',
+        element: <ThanksPage />,
     },
     {
         path: '*',
