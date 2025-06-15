@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import './styles/index.scss';
 
+import { Provider } from 'react-redux';
+import store from './store/store';
+import AccessibilityHandler from './components/AccessibilityHandler';
+import { LanguageProvider } from './LanguageContext';
+
 import MainPage from './Pages/MainPage/index.jsx';
 import Preview from './Pages/Preview/Preview.jsx';
 import GamesPage from './Pages/GamesPage/index.jsx';
 import FilmsPage from './Pages/FilmsPage/index.jsx';
+
 import HistoricalPage from './Pages/HistoricalPage/index.jsx';
+
+import PersonaliPage from './Pages/PersonaliPage/index.jsx';
+import PersonDetail from './Pages/PersonaliPage/PersonDetail/index.jsx';
+
+import PuzzlePage from './Pages/GamesPage/PuzzlePage/index.jsx';
+import QuizPage from './Pages/GamesPage/QuizPage/index.jsx';
 import CrosswordPage from './Pages/GamesPage/CrosswordPage/index.jsx';
 import CongratsPage from './Pages/GamesPage/CongratsPage/index.jsx';
 import CertificateFormPage from './Pages/GamesPage/CertificateFormPage/index.jsx';
@@ -67,19 +79,19 @@ const router = createBrowserRouter([
         path: 'papanin',
         element: <PapaninPage />,
     },
-    // {
-    //     path: 'personali',
-    //     children: [
-    //         {
-    //             index: true,
-    //             element: <PersonaliPage />,
-    //         },
-    //         {
-    //             path: ':id',
-    //             element: <PersonDetail />,
-    //         },
-    //     ],
-    // },
+    {
+        path: 'personali',
+        children: [
+            {
+                index: true,
+                element: <PersonaliPage />,
+            },
+            {
+                path: ':id',
+                element: <PersonDetail />,
+            },
+        ],
+    },
     {
         path: 'films',
         element: <FilmsPage />,
@@ -91,6 +103,14 @@ const router = createBrowserRouter([
     {
         path: 'crossword',
         element: <CrosswordPage />,
+    },
+    {
+        path: 'puzzle',
+        element: <PuzzlePage />,
+    },
+    {
+        path: 'quiz',
+        element: <QuizPage />,
     },
     {
         path: 'congrats',
@@ -112,7 +132,10 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+    <LanguageProvider>
+        <Provider store={store}>
+            <AccessibilityHandler />
+            <RouterProvider router={router} />
+        </Provider>
+    </LanguageProvider>
 );
