@@ -14,7 +14,7 @@
     display: flex;
     position: absolute;
     gap: 15px;
-    top: 33%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 15%);
 }

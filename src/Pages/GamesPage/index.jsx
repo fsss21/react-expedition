@@ -1,5 +1,5 @@
 import styles from './GamesPage.module.css';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -14,17 +14,23 @@ const GamesPage = () => {
             <div className={styles.container}>
                 <Header />
                 <div className={styles.buttons}>
-                    <Link className={styles.button} to="/puzzle">
-                        пазлы <br />
-                        <img src={puzzle} alt="" />
+                    <Link to="/puzzle">
+                        <button className={styles.button}>
+                            пазлы <br />
+                            <img src={puzzle} alt="" />
+                        </button>
                     </Link>
-                    <Link className={styles.button} to="/crossword">
-                        кроссворд
-                        <img src={crossword} alt="" />
+                    <Link to="/crossword">
+                        <button className={styles.button}>
+                            кроссворд
+                            <img src={crossword} alt="" />
+                        </button>
                     </Link>
-                    <Link className={styles.button} to="/quiz">
-                        викторина
-                        <img src={quiz} alt="" />
+                    <Link to="/quiz">
+                        <button className={styles.button}>
+                            викторина
+                            <img src={quiz} alt="" />
+                        </button>
                     </Link>
                 </div>
                 <Footer />

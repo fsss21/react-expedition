@@ -1,58 +1,49 @@
 import styles from './Historical.module.css';
 import { useNavigate } from 'react-router';
+import { useSelector } from 'react-redux';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { useLanguage } from '../../LanguageContext';
+import { operationStyles } from '../../data/data';
 
 const HistoricalPage = () => {
-    const navigate = useNavigate();
+  const { isEnabled } = useSelector((state) => state.accessibility);
+  const navigate = useNavigate();
+  const { data } = useLanguage();
 
-    const handleNovosibirskClick = () => {
-        navigate('/novosibirsk');
-    };
+  const handleItemClick = (id) => {
+    navigate(`/history-item/${id}`);
+  };
 
-    const handleKrasinClick = () => {
-        navigate('/krasin');
-    };
+  return (
+    <>
+      <div className={styles.container}>
+        <Header />
+        {isEnabled ? (
+          <div className={styles.content}>
+            <span className={styles.title}>ИСТОРИЧЕСКИЙ ОБЗОР</span>
 
-    const handleFrankClick = () => {
-        navigate('/frank');
-    };
-
-    const handleNorthernClick = () => {
-        navigate('/northern');
-    };
-    const handleOttoClick = () => {
-        navigate('/otto');
-    };
-
-    const handleСheluskinClick = () => {
-        navigate('/cheluskin');
-    };
-    const handleVodopyanovClick = () => {
-        navigate('/vodopyanov');
-    };
-
-    const handlePapaninClick = () => {
-        navigate('/papanin');
-    };
-
-    return (
-        <>
-            <div className={styles.container}>
-                <Header />
-                <div className={styles.novosibirsk} onClick={handleNovosibirskClick}></div>
-                <div className={styles.krasin} onClick={handleKrasinClick}></div>
-                <div className={styles.frank} onClick={handleFrankClick}></div>
-                <div className={styles.northern} onClick={handleNorthernClick}></div>
-                <div className={styles.otto} onClick={handleOttoClick}></div>
-                <div className={styles.cheluskin} onClick={handleСheluskinClick}></div>
-                <div className={styles.vodopyanov} onClick={handleVodopyanovClick}></div>
-                <div className={styles.papanin} onClick={handlePapaninClick}></div>
-                <Footer />
-            </div>
-        </>
-    );
+            {data?.operations?.map?.((operation) => {
+              return (
+                <>
+                  <span className={styles.subTitle}>{operation.title} </span>
+                  <span className={styles.info} onClick={() => handleItemClick(operation.id)}>
+                    узнать подробнее
+                  </span>
+                </>
+              );
+            })}
+          </div>
+        ) : (
+          data?.operations?.map((operation) => (
+            <div key={operation.id} className={styles.operation} style={operationStyles[operation.id]} onClick={() => handleItemClick(operation.id)} />
+          ))
+        )}
+        <Footer />
+      </div>
+    </>
+  );
 };
 
 export default HistoricalPage;
