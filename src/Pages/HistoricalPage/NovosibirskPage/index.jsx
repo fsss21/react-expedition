@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { novosibirsk } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const NovosibirskPage = () => {
-    return <Menu data={novosibirsk} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.novosibirsk} />;
 };
 
 export default NovosibirskPage;

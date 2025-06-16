@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { papanin } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const PapaninPage = () => {
-    return <Menu data={papanin} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.papanin} />;
 };
 
 export default PapaninPage;

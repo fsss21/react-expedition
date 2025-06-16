@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { krasin } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const KrasinPage = () => {
-    return <Menu data={krasin} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.krasin} />;
 };
 
 export default KrasinPage;

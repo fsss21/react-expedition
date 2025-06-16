@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { vodopyanov } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const VodopyanovPage = () => {
-    return <Menu data={vodopyanov} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.vodopyanov} />;
 };
 
 export default VodopyanovPage;

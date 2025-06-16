@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { otto } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const OttoPage = () => {
-    return <Menu data={otto} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.otto} />;
 };
 
 export default OttoPage;

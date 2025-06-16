@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { frank } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const FrankPage = () => {
-    return <Menu data={frank} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.frank} />;
 };
 
 export default FrankPage;

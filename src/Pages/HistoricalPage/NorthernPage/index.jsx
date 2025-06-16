@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { northern } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const NorthernPage = () => {
-    return <Menu data={northern} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.northern} />;
 };
 
 export default NorthernPage;

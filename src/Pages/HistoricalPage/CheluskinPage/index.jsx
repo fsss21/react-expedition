@@ -1,8 +1,9 @@
 import Menu from '../../../components/Menu';
-import { cheluskin } from '../../../data';
+import { useLanguage } from '../../../LanguageContext';
 
 const CheluskinPage = () => {
-    return <Menu data={cheluskin} />;
+  const { data } = useLanguage();
+  return <Menu data={data.operations.cheluskin} />;
 };
 
 export default CheluskinPage;
