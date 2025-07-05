@@ -111,7 +111,7 @@ export const puzzleData = [
  ];
  
  export const crosswordData = {
-	size: 19,
+	size: 23,
 	words: [
 	  {
 		 id: 'v1',
@@ -148,7 +148,7 @@ export const puzzleData = [
 	  {
 		 id: 'h5',
 		 word: 'экспедиция',
-		 clue: 'Морские путешествия, предпринимаемые для исследования стран, лежащих около земных полюсов.',
+		 clue: 'Морское путешествие, предпринимаемое для исследования стран, лежащих около земных полюсов.',
 		 direction: 'horizontal',
 		 start: { row: 5, col: 12 },
 		 solved: false,
