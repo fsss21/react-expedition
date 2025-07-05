@@ -107,68 +107,30 @@ export const translations = {
 };
 
 export const operationStyles = {
-  novosibirsk: {
-    position: 'absolute',
-    bottom: '24%',
-    left: '3%',
-    width: '450px',
-    height: '110px',
-    cursor: 'pointer'
-  },
-  krasin: {
-    position: 'absolute',
-    top: '44%',
-    left: '12%',
-    width: '280px',
-    height: '130px',
-    cursor: 'pointer'
-  },
-  frank: {
-    position: 'absolute',
-    bottom: '22%',
-    left: '29%',
-    width: '320px',
-    height: '130px',
-    cursor: 'pointer'
-  },
-  northern: {
-    position: 'absolute',
-    top: '43%',
-    left: '34%',
-    width: '330px',
-    height: '160px',
-    cursor: 'pointer'
-  },
   otto: {
     position: 'absolute',
-    bottom: '22%',
-    right: '27%',
-    width: '390px',
-    height: '125px',
-    cursor: 'pointer'
+    top: '38%',
+    left: '4%',
+    width: '400px',
+    height: '260px',
+    cursor: 'pointer',
   },
+
   cheluskin: {
     position: 'absolute',
-    top: '44%',
-    right: '22%',
-    width: '320px',
+    top: '38%',
+    left: '30%',
+    width: '520px',
     height: '170px',
-    cursor: 'pointer'
+    cursor: 'pointer',
   },
+
   vodopyanov: {
     position: 'absolute',
-    bottom: '19%',
-    right: '9%',
-    width: '300px',
-    height: '150px',
-    cursor: 'pointer'
+    top: '38%',
+    right: '10%',
+    width: '510px',
+    height: '240px',
+    cursor: 'pointer',
   },
-  papanin: {
-    position: 'absolute',
-    bottom: '5%',
-    right: '2%',
-    width: '475px',
-    height: '110px',
-    cursor: 'pointer'
-  }
 };
