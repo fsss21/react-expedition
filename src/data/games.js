@@ -258,7 +258,7 @@ export const puzzleData = [
 	  answers: [
 		 { id: 'a', text: 'Восточная земля', correct: false },
 		 { id: 'b', text: 'Западная земля', correct: false },
-		 { id: 'c', text: 'Северная земля+', correct: true },
+		 { id: 'c', text: 'Северная земля', correct: true },
 	  ],
 	},
 	{
