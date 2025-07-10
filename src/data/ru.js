@@ -164,8 +164,11 @@ export const ru = {
         { src: '../images/vodopyanov-photo10.jpg', title: 'М. Водопьянов' }
       ],
       videos: [{ src: '', title: '' }],
-      audios: []
-    }
+      audios: [{
+        src: '/audios/Vodopyanov-text1.mp3',
+        title: 'Воздушная экспедиция Водопьянова Михаила Васильевича на Землю Франца-Иосифа'
+      }]
+    },
     // {
     //   id: 'papanin',
     //   title: (
@@ -804,7 +807,7 @@ export const ru = {
         gallery: [{ src: '', name: '' }]
       },
       {
-        id: 'researcher-5',
+        id: 'researcher-6',
         date: '(1890-1952)',
         title: 'В И Воронин',
         biography: {
