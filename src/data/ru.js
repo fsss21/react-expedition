@@ -164,11 +164,13 @@ export const ru = {
         { src: '../images/vodopyanov-photo10.jpg', title: 'М. Водопьянов' }
       ],
       videos: [{ src: '', title: '' }],
-      audios: [{
-        src: '/audios/Vodopyanov-text1.mp3',
-        title: 'Воздушная экспедиция Водопьянова Михаила Васильевича на Землю Франца-Иосифа'
-      }]
-    },
+      audios: [
+        {
+          src: '/audios/Vodopyanov-text1.mp3',
+          title: 'Воздушная экспедиция Водопьянова Михаила Васильевича на Землю Франца-Иосифа'
+        }
+      ]
+    }
     // {
     //   id: 'papanin',
     //   title: (
@@ -450,13 +452,9 @@ export const ru = {
           }
         ],
         gallery: [{ src: '', name: '' }]
-      },
-      
-    ],
-    engineers: [
-      {
       }
     ],
+    engineers: [{}],
     researchers: [
       {
         id: 'researcher',
@@ -876,12 +874,7 @@ export const ru = {
       },
       { src: '/videos/papanin-video1.mp4', title: 'Папанин и его команда на дрейфующей станции "Северный полюс-1"(кинохроника, 1937г)' }
     ],
-    audioBooks: [
-      {
-        title: '',
-        src: ''
-      }
-    ],
+    audioBooks: [],
     lectures: [],
     books: [
       {
