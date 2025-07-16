@@ -1,4 +1,4 @@
-export const puzzleData = [
+window.puzzleData = [
 	{
 	  id: 1,
 	  imageSrc: '/images/puzzle1.jpg',
@@ -86,7 +86,7 @@ export const puzzleData = [
   },
  ];
  
- export const difficultyLevels = [
+window.difficultyLevels = [
 	{
 	  id: 'easy',
 	  name: 'Легкий',
@@ -110,7 +110,7 @@ export const puzzleData = [
 	},
  ];
  
- export const crosswordData = {
+window.crosswordData = {
 	size: 23,
 	words: [
 	  {
@@ -196,7 +196,7 @@ export const puzzleData = [
 	],
  };
  
- export const quizData = [
+window.quizData = [
 	{
 	  id: 1,
 	  question: 'Какой транспортный ледокол дрейфовал 812 дней в арктических льдах?',
@@ -290,7 +290,7 @@ export const puzzleData = [
 	},
  ];
  
- export const gamesData = [
+window.gamesData = [
 	{
 	  id: 2,
 	  name: 'Ледовая разведка',
