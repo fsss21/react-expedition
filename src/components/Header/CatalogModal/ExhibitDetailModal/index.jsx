@@ -12,6 +12,7 @@ const ExhibitDetailModal = ({ exhibit, onClose, onBackToCatalog }) => {
   const { isEnabled } = useSelector((state) => state.accessibility);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const images = exhibit?.images || [];
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -42,10 +43,8 @@ const ExhibitDetailModal = ({ exhibit, onClose, onBackToCatalog }) => {
 
   const detailClass = styles.detailModal;
   const detailEnabled = isEnabled ? styles.detailModal_enabled : '';
-  const basicClass = styles.modalHeader 
+  const basicClass = styles.modalHeader;
   const enabledClass = isEnabled ? styles.modalHeader_enabled : '';
-
-
 
   return (
     <div className={styles.modalOverlay}>
@@ -75,23 +74,23 @@ const ExhibitDetailModal = ({ exhibit, onClose, onBackToCatalog }) => {
             <h2 className={styles.exhibitTitle}>{exhibit.name}</h2>
             <div className={styles.details}>
               <p>
-                <strong>Дата:</strong> {exhibit.date}
+                <strong >Дата:</strong> <span dangerouslySetInnerHTML={{ __html: exhibit.name}}></span>
               </p>
               <p>
-                <strong>Материал:</strong> {exhibit.material}
+                <strong>Материал:</strong> <span dangerouslySetInnerHTML={{ __html: exhibit.material}}></span>
               </p>
               <p>
-                <strong>Размеры:</strong> {exhibit.size}
+                <strong>Размеры:</strong> <span dangerouslySetInnerHTML={{ __html: exhibit.size}}></span>
               </p>
             </div>
-            <div className={styles.description}>{exhibit.description}</div>
+            <div className={styles.description} dangerouslySetInnerHTML={{ __html: exhibit.description}}></div>
           </div>
           <div className={styles.imageSection}>
             <img src={exhibit.images[currentImageIndex]} alt={exhibit.name} onClick={() => setIsFullscreen(true)} className={styles.mainImage} />
 
             {/* Пагинация */}
             <div className={styles.pagination}>
-              {exhibit.images.map((_, index) => (
+              {images.map((_, index) => (
                 <button
                   key={index}
                   className={`${styles.paginationDot} ${index === currentImageIndex ? styles.active : ''}`}
