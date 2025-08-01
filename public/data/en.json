@@ -2,8 +2,8 @@
   "operations": [
     {
       "id": "otto",
-      "title": "экспедиция <br />на ледоколе <br />«Сибиряков»<br /> под руководством <br />Отто Шмидта",
-      "text": "28 июля 1932 года ледокольный пароход «Александр Сибиряков» под командованием капитана Владимира Воронина, начальника экспедиции академика Отто Шмидта и его заместителя Владимира Визе вышел из Архангельска. Цель — впервые в истории пройти по Северному морскому пути из Белого в Берингово море за одну навигацию. Интересные факты: Обошли архипелаг Северная Земля. В нарушение традиций, «Сибиряков» рискнул отдалиться от берега и впервые в истории обогнул архипелаг с севера. Достигли Чукотского моря. В сложной ледовой обстановке потеряли часть гребного вала с винтом. Начали дрейфовать. Экипаж принял решение — поставить паруса. Настоящих парусов на судне не было — на мачты повесили брезенты и шлюпочные паруса. Часть парусов была от угольной пыли чёрной, поэтому «Сибиряков» вышел в Берингово море как «Летучий голландец», с черными парусами. 1 октября 1932 года «Александр Сибиряков» вошёл в Берингов пролив. Северный морской путь был пройден за 65 суток. Отбуксированы в Японию. Рыболовецкий корабль «Уссуриец» доставил «Сибирякова» в японский порт Иокогама, где ледокол встал на ремонт. 1 января 1933 года ледокол покинул Японию, обогнул Евразию с юга и к 7 марта прибыл в Мурманск. Наблюдения и выводы, сделанные участниками экспедиции на «Александре Сибирякове», стали программой развития арктической магистрали на несколько десятилетий вперёд. Главным итогом экспедиции стало создание управления Главсевморпути, которому было поручено развитие Арктики. Управление возглавил сам Шмидт. Главсевморпути курировало строительство ледоколов и судов ледового класса, развитие полярной авиации, организовывало научные арктические экспедиции",
+      "title": "expedition <br />on the icebreaker <br />«Sibiryakov»<br /> under the leadership of <br />Otto Schmidt",
+      "text": "On July 28, 1932, the icebreaker steamship Alexander Sibiryakov, under the command of Captain Vladimir Voronin, the head of the expedition, Academician Otto Schmidt, and his deputy Vladimir Vize, left Arkhangelsk. The goal was to be the first in history to sail along the Northern Sea Route from the White Sea to the Bering Sea in one navigation. Interesting facts: They went around the Severnaya Zemlya archipelago. In violation of tradition, the Sibiryakov risked moving away from the shore and for the first time in history went around the archipelago from the north. They reached the Chukchi Sea. In difficult ice conditions, they lost part of the propeller shaft with the propeller. They began to drift. The crew decided to set the sails. There were no real sails on the ship - tarpaulins and boat sails were hung on the masts. Some of the sails were black from coal dust, so the Sibiryakov entered the Bering Sea as the Flying Dutchman, with black sails. On October 1, 1932, the Alexander Sibiryakov entered the Bering Strait. The Northern Sea Route was covered in 65 days. Towed to Japan. The fishing vessel Ussuriets delivered the Sibiryakov to the Japanese port of Yokohama, where the icebreaker was repaired. On January 1, 1933, the icebreaker left Japan, rounded Eurasia from the south, and arrived in Murmansk by March 7. The observations and conclusions made by the participants of the expedition on the Alexander Sibiryakov became a program for the development of the Arctic highway for several decades to come. The main result of the expedition was the creation of the Glavsevmorput Directorate, which was entrusted with the development of the Arctic. Schmidt himself headed the directorate. Glavsevmorput supervised the construction of icebreakers and ice-class vessels, the development of polar aviation, and organized scientific Arctic expeditions",
       "images": [
         {
           "src": "../images/otto-photo1.jpg",
@@ -15,26 +15,26 @@
         },
         {
           "src": "../images/otto-photo3.jpg",
-          "title": "Маршрут экспедиции"
+          "title": "Expedition route"
         }
       ],
       "videos": [
         {
           "src": "/videos/otto-video1.mp4",
-          "title": "На ледоколе поднимали черные паруса.  Смелое решение спасло советскую экспедицию в 1932"
+          "title": "Black sails were raised on the icebreaker. A bold decision saved the Soviet expedition in 1932"
         }
       ],
       "audios": [
         {
           "src": "/audios/Otto-text1.mp3",
-          "title": "Экспедиция на ледоколе «Сибиряков» под руководством Отто Шмидта"
+          "title": "Expedition on the icebreaker «Sibiryakov» under the leadership of Otto Schmidt"
         }
       ]
     },
     {
       "id": "cheluskin",
-      "title": "Экспедиция на пароходе <br />«Челюскин»",
-      "text": "Командовал экспедицией Отто Шмидт, капитаном судна стал Владимир Воронин. В августе 1933-го судно вышло из Мурманска и взяло курс на Владивосток. Цель экспедиции — доставка продовольствия, угля и строительных материалов на остров Врангеля. Ожидалось, что пароход достигнет места назначения за месяц. Кроме того, планировалась отработка маршрута по Северному морскому пути: челюскинцы должны были доказать его пригодность для доставки грузов на Дальний Восток неледокольными судами. Начальник экспедиции Отто Шмидт не сомневался в успехе, технике и подчиненных. К этому времени условия плавания в арктических водах стали комфортнее: на побережье по маршруту базировались самолеты разведки, действовала разветвленная сеть радиостанций. Предполагалось, что на сложных участках \"Челюскину\" помогут полноценные ледоколы. Первого сентября пароход подошел к мысу Челюскина. Команде уже довелось побороться со льдами в Карском море. Пароход получил несколько внушительных вмятин. Но в Восточно-Сибирском море челюскинцев ожидали куда более серьезные испытания. Сильные снегопады и туман не позволяли проводить ледовую разведку с воздуха. Для ледовой разведки на борту парохода находился гидросамолет конструкции Шаврина «Ш-2», пилотом которого был полярный лётчик М. С. Бабушкин \"Челюскин\" практически на ощупь пробивался через многолетние льды. В двадцатых числах сентября \"Челюскин\" и пароход вместе с толщей льда дрейфовал более пяти месяцев, пока 13 февраля 1934-го льды не раздавили корпус. Шмидт предвидел катастрофу. Заметив, что на судно надвигается ледяной вал, он распорядился выгрузить аварийный запас продовольствия и горючего. На льду оказались 104 человека, в том числе десять женщин и двое детей — члены семей полярников, направлявшихся на остров Врангеля. На льдине построили барак из бревен и досок, всплывших после потопления \"Челюскина\", оборудовали палаточный лагерь. Оставшихся продуктов хватало на два с половиной месяца. Недалеко от лагеря челюскинцы расчистили небольшую площадку для приема самолетов. Для спасения челюскинцев была организована масштабная операция. Советская авиация впервые в истории провела успешную эвакуацию людей с арктического льда. Это был первый в истории спасательный рейс подобного масштаба в арктических условиях.  Несмотря на потерю судна, экспедиция на «Челюскине» стала важным событием в освоении Севморпути. Она показала, что проход возможен, пусть и с рисками. ",
+      "title": "Expedition on the steamship <br />«Chelyuskin»",
+      "text": "The expedition was commanded by Otto Schmidt, and the ship's captain was Vladimir Voronin. In August 1933, the ship left Murmansk and headed for Vladivostok. The goal of the expedition was to deliver food, coal, and building materials to Wrangel Island. The ship was expected to reach its destination in a month. In addition, it was planned to test the route along the Northern Sea Route: the Chelyuskinites had to prove its suitability for delivering cargo to the Far East by non-icebreaking vessels. The head of the expedition, Otto Schmidt, had no doubts about the success, equipment, or subordinates. By this time, the conditions for sailing in Arctic waters had become more comfortable: reconnaissance aircraft were based on the coast along the route, and an extensive network of radio stations was in operation. It was assumed that full-fledged icebreakers would help the Chelyuskin in difficult areas. On September 1, the ship approached Cape Chelyuskin. The crew had already had to contend with ice in the Kara Sea. The steamship had received several impressive dents. But in the East Siberian Sea, the Chelyuskinites faced much more serious challenges. Heavy snowfalls and fog prevented them from conducting ice reconnaissance from the air. For ice reconnaissance, the steamship had a Shavrin-designed «Sh-2» seaplane on board, piloted by polar pilot M. S. Babushkin. \"Chelyuskin\" made its way through the multi-year ice practically by touch. In the twenties of September, \"Chelyuskin\" and the steamship, together with the thickness of the ice, drifted for more than five months, until on February 13, 1934, the ice crushed the hull. Schmidt foresaw a catastrophe. Noticing that an ice shaft was approaching the ship, he ordered the unloading of emergency food and fuel supplies. There were 104 people on the ice, including ten women and two children — members of the families of polar explorers heading to Wrangel Island. A barrack was built on the ice floe from logs and boards that floated to the surface after the sinking of the Chelyuskin, and a tent camp was set up. The remaining food was enough for two and a half months. Not far from the camp, the Chelyuskinites cleared a small area to receive aircraft. A large-scale operation was organized to rescue the Chelyuskinites. For the first time in history, Soviet aviation successfully evacuated people from the Arctic ice. This was the first rescue flight of this scale in Arctic conditions. Despite the loss of the ship, the Chelyuskin expedition became an important event in the development of the Northern Sea Route. It showed that passage was possible, albeit with risks. ",
       "images": [
         {
           "src": "../images/cheluskin-photo1.jpg",
@@ -46,46 +46,46 @@
         },
         {
           "src": "../images/cheluskin-photo3.jpg",
-          "title": "Капитан парохода Челюскин Владимир Воронин на мостике"
+          "title": "Captain of the steamship Chelyuskin Vladimir Voronin on the bridge"
         },
         {
           "src": "../images/cheluskin-photo4.jpg",
-          "title": "Кинооператоры Аркадий шафран (слева) и Марк Трояновский"
+          "title": "Cinematographers Arkady Shafran (left) and Mark Troyanovsky"
         },
         {
           "src": "../images/cheluskin-photo5.jpg",
-          "title": "Пароход Челюскин"
+          "title": "Steamship Chelyuskin"
         },
         {
           "src": "../images/cheluskin-photo6.jpg",
-          "title": "Путь парохода Челюскин"
+          "title": "The route of the steamship Chelyuskin"
         },
         {
           "src": "../images/cheluskin-photo7.jpg",
-          "title": "Члены экспедиции на палубе парохода"
+          "title": "Members of the expedition on the deck of the steamer"
         },
         {
           "src": "../images/cheluskin-photo8.jpg",
-          "title": "пароход Челюскин перед отплытием в Ленинграде"
+          "title": "Steamship Chelyuskin before sailing in Leningrad"
         }
       ],
       "videos": [
         {
           "src": "/videos/cheluskin-video1.mp4",
-          "title": "«Челюскин» и его судьба.  Программа Леонида Млечина"
+          "title": "«Chelyuskin» and its fate. Leonid Mlechin's program"
         }
       ],
       "audios": [
         {
           "src": "/audios/Cheluskin-text1.mp3",
-          "title": "Экспедиция на пароходе «Челюскин» по Северному морскому пути, которым руководил Шмидт"
+          "title": "Expedition on the steamship «Chelyuskin» along the Northern Sea Route, led by Schmidt"
         }
       ]
     },
     {
       "id": "vodopyanov",
-      "title": " воздушная экспедиция <br /> Водопьянова Михаила <br /> Васильевича на Землю <br />Франца-Иосифа",
-      "text": "28 марта — 21 мая 1936 года Михаил Васильевич Водопьянов возглавил перелёт двух специально подготовленных самолётов АРК-5 из Москвы на Землю Франца-Иосифа. Цель экспедиции — выбор маршрута и базового аэродрома для предстоящего  перелёта на Северный полюс.   Основная задача — изучение подступов к Северному полюсу, освоение маршрута  полёта, разведка ледовой обстановки в Карском и Баренцевом морях, накопление  информации о климатических и погодных изменениях.  26 апреля 1936 года на АРК-5 «СССР Н-127» Водопьянов впервые достиг по  воздуху острова Рудольфа — самой северной точки архипелага Земля Франца- Иосифа. Его было решено сделать базовым аэродромом для полёта на Северный  полюс в 1937 году. ",
+      "title": " air expedition of <br /> Mikhail Vodopyanov <br /> Vasilyevich to the Earth of <br /> Franz-Joseph",
+      "text": "From March 28 to May 21, 1936, Mikhail Vasilyevich Vodopyanov led the flight of two specially prepared ARK-5 aircraft from Moscow to Franz Josef Land. The goal of the expedition was to select a route and base airfield for the upcoming flight to the North Pole. The main objective was to study the approaches to the North Pole, master the flight route, reconnoiter the ice conditions in the Kara and Barents Seas, and accumulate information on climate and weather changes. On April 26, 1936, on the ARK-5 «USSR H-127», Vodopyanov first reached Rudolf Island by air - the northernmost point of the Franz Josef Land archipelago. It was decided to make it the base airfield for the flight to the North Pole in 1937. ",
       "images": [
         {
           "src": "../images/vodopyanov-photo1.jpg",
@@ -121,11 +121,11 @@
         },
         {
           "src": "../images/vodopyanov-photo9.jpg",
-          "title": "М. Водопьянов"
+          "title": "Mikhail Vodopyanov"
         },
         {
           "src": "../images/vodopyanov-photo10.jpg",
-          "title": "М. Водопьянов"
+          "title": "Mikhail Vodopyanov"
         }
       ],
       "videos": [
@@ -137,7 +137,7 @@
       "audios": [
         {
           "src": "/audios/Vodopyanov-text1.mp3",
-          "title": "Воздушная экспедиция Водопьянова Михаила Васильевича на Землю Франца-Иосифа"
+          "title": "Air expedition of Mikhail Vasilyevich Vodopyanov to Franz Josef Land"
         }
       ]
     }
