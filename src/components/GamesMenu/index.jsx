@@ -7,7 +7,7 @@ import Header from '../Header';
 
 const GamesMenu = ({
   correctAnswersCount = 0,
-  totalQuestions = 10,
+  totalQuestions = 0,
   completedPuzzles = 0,
   totalPuzzles = 3,
   activeGame: activeGameFromProps,
@@ -25,6 +25,8 @@ const GamesMenu = ({
   const location = useLocation();
   const navigate = useNavigate(); // Хук для навигации
   const { data } = useLanguage();
+
+  
 
   const getActiveGameFromPath = () => {
     if (location.pathname.includes('/puzzle')) return 'пазлы';
@@ -80,6 +82,8 @@ const GamesMenu = ({
   }, [activeGame, freezeStats, hideStats]);
 
   const getAnswersText = () => {
+    if (totalQuestions === 0) return data.selectGame;
+    
     switch (activeGame) {
       case 'пазлы':
         return `${currentPieces}/${totalPieces} ${data.puzzlesProgress}`;
