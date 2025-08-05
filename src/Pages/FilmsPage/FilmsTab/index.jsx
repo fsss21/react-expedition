@@ -104,5 +104,4 @@ const FilmsTab = ({ items }) => {
   );
 };
 
-
 export default FilmsTab;
